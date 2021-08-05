@@ -6,8 +6,61 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans&display=swap');
+
+body {
+    margin: 0px;
+}
+
+/* NAVBAR */
 
 nav {
-    position: fixed;
+    padding: 15px;
+}
+
+ul.main {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+/* SECTION 1 */
+
+.sec1 {
+  background-image: url("/images/landing.jpg");
+  height: 90vh;
+  background-size: cover;
+}
+
+.sec1 img {
+    height: 90vh;
+}
+
+.sec1 h1 {
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+    padding-top: 225px;
+    padding-bottom: 20px;
+    font-size: 80px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sec1 h2 {
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    width: 60vw;
 }
 
