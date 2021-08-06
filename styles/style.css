@@ -9,6 +9,7 @@ White: #FFF
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
 body {
     margin: 0px;
@@ -62,5 +63,43 @@ a {
     text-align: center;
     margin: auto;
     width: 60vw;
+}
+
+/* SECTION 2 */
+
+.sec2 {
+    text-align: center;
+}
+
+.sec2 h2 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 43px;
+    text-underline-offset: 10px;
+}
+
+.sec2 h3 {
+    color: #00B172;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+}
+
+.sec2 h4 {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: lighter;
+    font-size: 28px;
+    padding: 0px 40px;
+}
+
+.sec2 img {
+    /* width: 30%; */
+    height: 115px;
+}
+
+.onSpotify {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
 }
 
