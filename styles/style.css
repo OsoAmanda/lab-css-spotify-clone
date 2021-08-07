@@ -90,6 +90,7 @@ a {
     font-weight: lighter;
     font-size: 28px;
     padding: 0px 40px;
+    width: 345px;
 }
 
 .sec2 img {
@@ -103,3 +104,47 @@ a {
     padding: 40px;
 }
 
+/* SECTION 3  */
+
+.sec3 {
+    background-color: #00B172;
+    display: flex;
+    justify-content: center;
+    margin: 38px;
+}
+
+img.icon {
+    height: 150px;
+    align-self: center;
+    padding-right: 125px;
+}
+
+img.screen {
+    height: 650px;
+    padding-top: 120px;
+    padding-bottom: 75px;
+}
+
+.sec3 h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 42px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+.sec3 h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 34px;
+    margin: 45px 0px;
+}
+
+.sec3 p {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: lighter;
+    color: white;
+    width: 400px;
+    width: 385px;
+    font-size: 24px;
+}
